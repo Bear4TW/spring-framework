@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class UserController {
 
     @RequestMapping("/user")
-    public String userinfo(){
+    public String user(){
         return "user/userinfo.html";
     }
 }
